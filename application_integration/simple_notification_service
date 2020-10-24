@@ -1,0 +1,14 @@
+# Simple Notification Service (SNS) Overview
+Amazon SNS manages the delivery of messages to subscribing endpoints or clients. *Publishers* communicate asynchronously with *subscribers* by producing and sending a message to a topic, which is a logical access point and communication channel. Subscribers consume the message over one of the supported protocols (e.g. SQS, HTTP/S, email, SMS, Lambda) when they are subbed to a topic.
+
+![](https://docs.aws.amazon.com/sns/latest/dg/images/sns-how-works.png)
+
+# User Notifications
+SNS can send push notifications to mobile devices and desktops using one of the following supported push notification services:
+* ADM
+* APNs
+* Baidu
+* FCM
+* MPNS
+* WNS
+
